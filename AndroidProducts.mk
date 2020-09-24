@@ -12,12 +12,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/rr_h3113.mk \
-                     $(LOCAL_DIR)/rr_h4113.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/rr_pioneer.mk \
+                     $(LOCAL_DIR)/rr_pioneer_DSDS.mk
 
 COMMON_LUNCH_CHOICES += \
-    rr_h3113-eng \
-    rr_h3113-userdebug \
-    rr_h4113-eng \
-    rr_h4113-userdebug
+    rr_pioneer-eng \
+    rr_pioneer-userdebug \
+    rr_pioneer_DSDS-eng \
+    rr_pioneer_DSDS-userdebug
 
